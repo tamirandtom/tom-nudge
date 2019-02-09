@@ -74,6 +74,7 @@ display: block;
     padding: 48px;
     background: #fff;
     width: 50%;
+    overflow-y:scroll;
     height: 100%;
     position: absolute;
     top: 0px;
