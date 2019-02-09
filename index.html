@@ -70,8 +70,10 @@ border: 1px solid #999999;
 font-size: 14px;
 height: 32px;
 font-family: 'Secular One', sans-serif;
-color:#1a1a1a
-
+color:#1a1a1a;
+direction: ltr;
+text-align: left;
+padding: 0 8px;
   }
 
   #mce-EMAIL.input-overide::placeholder {
@@ -118,7 +120,7 @@ direction: rtl;
   <div class="text3">
       בואו נהיה חברים <a href="foo">בפייסבוק</a>, נשלח <a href="foo">מכתבים</a> או נכתב <a href="foo">בטלגרם</a>
       <br>
-      <div class="b" style="font-size: 24px;"> תום אבן</div>
+      <div class="b" style="font-size: 24px;margin-top: 12px;"> תום אבן</div>
      
   </div>
 
@@ -126,7 +128,11 @@ direction: rtl;
 
 
 </div>
-<img src="f.png" id="floatimage" style="position: fixed;" />
+<div id="floatimage" style="position: fixed;" >
+    <img src="f.png" />
+    <div class="tooltip">מה, עדיין לא נרשמת<br>לרשימת התפוצה?</div>
+</div>
+
 <div class="floating-image">
 <div class="credits">
   <a href="">foo</a>

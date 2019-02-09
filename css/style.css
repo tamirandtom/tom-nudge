@@ -54,6 +54,22 @@ body {
     font-size: 14px;
     text-decoration: underline;
 }
+#floatimage .tooltip {
+    display: none;
+    border-radius: 4px;
+    width:140px;
+    position: absolute;
+    left: -50px;
+    top:40px;
+    background: #1A1A1A;
+    padding: 8px;
+    color:#fff;
+    text-align: center;
+    direction: rtl;
+}
+#floatimage:hover .tooltip {
+display: block;
+}
 #wrapper {
     padding: 48px;
     background: #fff;
