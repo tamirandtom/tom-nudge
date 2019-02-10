@@ -36,7 +36,7 @@ a:active {
     height: 100%;
     width: 50%;
     background-color: #eee;
-    background-image: url('https://github.com/tamirandtom/tom-nudge/blob/master/te.jpg');
+    background-image: url('te.jpg');
     background-size: cover;
     display: flex;
     align-items: flex-end;
