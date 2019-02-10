@@ -58,7 +58,7 @@ a:active {
 
 #floatimage {
 position: fixed; 
-    top: 60px; 
+    top: 40px; 
     left: 60%;
 }
 #floatimage .tooltip {
@@ -155,7 +155,7 @@ display: block;
     }
     #floatimage {
 position: fixed; 
-    top: 40px; 
+    top: 500px; 
     left: 20%;
 }
 }
