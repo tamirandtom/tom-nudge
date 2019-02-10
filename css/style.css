@@ -155,7 +155,7 @@ display: block;
     }
     #floatimage {
 position: fixed; 
-    top: 500px; 
+    top: 40px; 
     left: 20%;
 }
 }
