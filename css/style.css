@@ -12,14 +12,15 @@ body {
     font-size: 13px;
 }
 
-#wrapper a {
+#wrapper a, 
+#wrapper a:visited,
+{
     text-decoration: underline;
     color: #000000;
     transition: all 0.2s linear;
 }
 
 #wrapper a:hover,
-#wrapper a:visited,
 #wrapper a:active {
     color: #1EC794;
 }
