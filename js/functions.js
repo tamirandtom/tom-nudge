@@ -16,7 +16,7 @@ $(document).ready(function() {
                 availSpace_H = window_Width - image_Width;
                 
                 var changeInterval = 5000; // Time has to be in miliseconds. So, 3000 is 3 seconds
-                setInterval(moveImage, changeInterval);
+                // setInterval(moveImage, changeInterval);
                 $('#floatimage').show();
 
             }
